@@ -8,7 +8,7 @@ package problem5.student;
 // to store student information and properties
 public class Student {
     private String name;
-    private int rollNo;
+    private int rollNumber;
     private int backLogCounter;
 
 
@@ -16,8 +16,8 @@ public class Student {
         return name;
     }
 
-    public int getRollNo() {
-        return rollNo;
+    public int getRollNumber() {
+        return rollNumber;
     }
 
     public int getBackLogCounter() {
@@ -28,11 +28,20 @@ public class Student {
         this.name = name;
     }
 
-    public void setRollNo(int rollNo) {
-        this.rollNo = rollNo;
+    public void setRollNo(int rollNumber) {
+        this.rollNumber = rollNumber;
     }
 
     public void setBackLogCounter(int backLogCounter) {
         this.backLogCounter = backLogCounter;
+    }
+
+    @Override
+    public String toString() {
+        return "---------------------------------------" + "\n" +
+                "Name -- " + getName() + "\n" +
+                "Roll Number -- " + getRollNumber() + "\n" +
+                "Back Log Value -- " + getBackLogCounter() + "\n" +
+                "---------------------------------------";
     }
 }
