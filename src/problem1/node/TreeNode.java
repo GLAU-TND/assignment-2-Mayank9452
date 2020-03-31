@@ -34,4 +34,9 @@ public class TreeNode {
     public TreeNode getRightNode() {
         return rightNode;
     }
+
+    @Override
+    public String toString() {
+        return "data ==>> " + getData();
+    }
 }
