@@ -12,6 +12,11 @@ public class Node {
     private Student student;
     private Node nextNode;
 
+    public Student getStudent() {
+        return student;
+    }
 
-
+    public Node getNextNode() {
+        return nextNode;
+    }
 }
