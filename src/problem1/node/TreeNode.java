@@ -10,4 +10,16 @@ public class TreeNode {
     private int data;
     private TreeNode leftNode;
     private TreeNode rightNode;
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
+    public void setLeftNode(TreeNode leftNode) {
+        this.leftNode = leftNode;
+    }
+
+    public void setRightNode(TreeNode rightNode) {
+        this.rightNode = rightNode;
+    }
 }
