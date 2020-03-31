@@ -19,4 +19,12 @@ public class Node {
     public Node getNextNode() {
         return nextNode;
     }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+
+    public void setNextNode(Node nextNode) {
+        this.nextNode = nextNode;
+    }
 }
