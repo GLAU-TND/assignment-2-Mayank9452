@@ -19,4 +19,8 @@ public class MyBinarySearchTree {
     public MyBinarySearchTree() {
         arrayList = new ArrayList<>();
     }
+
+    public TreeNode getRoot() {
+        return root;
+    }
 }
