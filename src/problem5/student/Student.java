@@ -23,4 +23,16 @@ public class Student {
     public int getBackLogCounter() {
         return backLogCounter;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setRollNo(int rollNo) {
+        this.rollNo = rollNo;
+    }
+
+    public void setBackLogCounter(int backLogCounter) {
+        this.backLogCounter = backLogCounter;
+    }
 }
