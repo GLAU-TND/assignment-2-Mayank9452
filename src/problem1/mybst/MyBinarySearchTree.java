@@ -16,5 +16,7 @@ public class MyBinarySearchTree {
     private ArrayList<Integer> arrayList;
 
 
-
+    public MyBinarySearchTree() {
+        arrayList = new ArrayList<>();
+    }
 }
