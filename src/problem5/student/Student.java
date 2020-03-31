@@ -28,7 +28,7 @@ public class Student {
         this.name = name;
     }
 
-    public void setRollNo(int rollNumber) {
+    public void setRollNumber(int rollNumber) {
         this.rollNumber = rollNumber;
     }
 
