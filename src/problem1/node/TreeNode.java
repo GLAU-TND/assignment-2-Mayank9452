@@ -22,4 +22,16 @@ public class TreeNode {
     public void setRightNode(TreeNode rightNode) {
         this.rightNode = rightNode;
     }
+
+    public int getData() {
+        return data;
+    }
+
+    public TreeNode getLeftNode() {
+        return leftNode;
+    }
+
+    public TreeNode getRightNode() {
+        return rightNode;
+    }
 }
